@@ -4,7 +4,7 @@ public class Link<E> {
 	
 	//field
 	private E element;
-	private Link<E> next;	//Pointer to next node in list(next는 다음 node 그 자체!)
+	private Link<E> next;	//Pointer to next node in list(next�뒗 �떎�쓬 node 洹� �옄泥�!)
 	
 	//Constructors
 	public Link(E element, Link<E> next) {
@@ -18,20 +18,20 @@ public class Link<E> {
 	
 	
 	//methods
-	Link<E> next(){
+	public Link<E> next(){
 		return next;
 	}
 	
-	Link<E> setNext(Link<E> nextval){
+	public Link<E> setNext(Link<E> nextval){
 		next = nextval;
 		return next;
 	}
 	
-	E element(){
+	public E element(){
 		return element;
 	}
 	
-	E setElement(E elementval){
+	public E setElement(E elementval){
 		return element=elementval;
 	}
 }

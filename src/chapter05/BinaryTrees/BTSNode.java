@@ -13,6 +13,7 @@ public class BTSNode<Key, E> implements BinNode<E> {
 		left = right = null;
 	}
 	
+	
 	public BTSNode(Key key, E element) {
 		this.key = key;
 		this.element = element;
